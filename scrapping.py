@@ -21,14 +21,13 @@ def fetch_image_urls(query: str, max_links_to_fetch: int, wd: webdriver, sleep_b
 
         # build the google query
 
-    search_url = "https://www.google.com/search?q=Brain+shrinkage+in+brain+mri+images&tbm=isch&ved=2ahUKEwjBgt6t8rH5AhUwjtgFHU6pD6IQ2-cCegQIABAA&oq=Brain+shrinkage+in+brain+mri+images&gs_lcp=CgNpbWcQAzoGCAAQHhAHUP34Oljd2Dtgk947aAlwAHgAgAGaAogBiBGSAQYyNS4xLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=QzPuYoHVGbCc4t4PztK-kAo&bih=980&biw=1293"
-    # load the page
+    search_url = "https://www.google.com/search?q=normal+brain+DTI+MRI&source=lnms&tbm=isch&sa=X&ved=2ahUKEwishrONu875AhUd1HMBHdaPCRUQ_AUoAXoECAEQAw"
     wd.get(search_url.format(q=query))
 
     image_urls = set()
     image_count = 0
     results_start = 0
-    while image_count < 100:
+    while image_count < 500:
         scroll_to_end(wd)
 
         # get all image thumbnail results
@@ -77,7 +76,7 @@ def persist_image(folder_path:str,url:str, counter):
         print(f"ERROR - Could not download {url} - {e}")
 
     try:
-        f = open(os.path.join(folder_path, 'jpg' + "_" + str(counter) + ".jpg"), 'wb')
+        f = open(os.path.join(folder_path, 'pic' + "_" + str(counter) + ".jpg"), 'wb')
         f.write(image_content)
         f.close()
         print(f"SUCCESS - saved {url} - as older_path{f}")
@@ -101,7 +100,7 @@ def search_and_download(search_term: str, driver_path: str, target_path='./image
         counter += 1
 
 DRIVER_PATH = '/home/snekha/software/chromedriver'
-search_term = 'Brain shrinkage in brain mri images'
+search_term = 'normal brain DTI MRI'
 # num of images you can pass it from here  by default it's 10 if you are not passing
 # number_images = 10
 search_and_download(search_term=search_term, driver_path=DRIVER_PATH)
