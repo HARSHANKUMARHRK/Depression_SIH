@@ -1,0 +1,47 @@
+{
+  "utter_faq/depressed": [
+    {
+      "text": "hangout with friends and family"
+    }
+  ],
+  "utter_faq/find depression": [
+    {
+      "text": "MRI and EMG scans are commonly used technologies used to confirm that you are depressed.One must undergo either MRI scan or EMG scan to confirm they are depressed"
+    }
+  ],
+  "utter_faq/children": [
+    {
+      "text": "Yes. Children are subject to the same factors that cause depression in adults. These include: A change in physical health, life events, heredity, or inheritance, environment, and chemical disturbance in the brain. It is estimated that 2.5% of children in the U.S. suffer from depression. In adolescents, it is estimated to be 4% to 8%."
+    }
+  ],
+  "utter_faq/lack of sleep": [
+    {
+      "text": "No. Lack of sleep alone cannot cause depression, but it does play a role. Lack of sleep resulting from another medical illness or the presence of personal problems can intensify depression. Chronic inability to sleep is also an important clue that someone may be depressed."
+    }
+  ],
+  "utter_faq/women depression": [
+    {
+      "text": "Women develop depression twice as often as men. One reason may be the various changes in hormone levels that women experience. For example, depression is common during pregnancy and menopause, as well as after giving birth, suffering a miscarriage, or having a hysterectomy -- these are all times when women experience huge fluctuations in hormones. Premenstrual syndrome (PMS) and premenstrual dysphoric disorder (PMDD), an extreme form of PMS, may also cause depression."
+    }
+  ],
+  "utter_faq/sucide": [
+    {
+      "text": "No. Most people who suffer from depression do not attempt suicide, but according to Mental Health America, 30%-70% of suicide victims have suffered from some form of depression. This figure demonstrates the importance of seeking professional treatment for yourself or someone you love if you suspect depression."
+    }
+  ],
+  "utter_faq/move": [
+    {
+      "text": "It depends on the severity of your illness and what you've tried before. Both talk therapy and medication can be helpful. Often a combination of both is recommended. The Mental Health Parity and Addiction Equity Act of 2008 requires that health insurance plans to not put restrictions on coverage for mental health services that are different from coverage for other medical or surgical treatment. The Patient Protection and Affordable Care Act provides federal support for low-income individuals to obtain health insurance. Some mental health professionals or clinics also offer a sliding scale based on income."
+    }
+  ],
+  "utter_faq/doctor": [
+    {
+      "text": "Your primary care doctor can be a great resource. They can prescribe medication and, talk to you about lifestyle changes, and in some cases provide talk therapy. You should let your primary care doctor know if you're concerned about depression. They can offer tests to rule out medical conditions that may contribute to your symptoms. Primary care doctors routinely prescribe medications for depression, but if your case is complicated or the treatments don't work for you, your doctor may recommend you see a psychiatrist who specializes in the treatment of mental illnesses. Many primary care doctors can provide brief counseling, but if you need intensive or specialized treatment, you may turn to a psychologist, social worker, or psychiatrist for therapy."
+    }
+  ],
+  "utter_faq/treatment failed": [
+    {
+      "text": " Once you've settled on a therapist and doctor, you need to give therapy and medication a chance to work. Getting better takes time, often several months. Treatment for depression can be hard at first. Opening up to someone about very personal things in your life isn't easy. But most people do get better with treatment."
+    }
+  ]
+}

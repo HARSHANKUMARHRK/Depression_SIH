@@ -1,0 +1,12 @@
+{
+  "utter_faq/depressed": [
+    {
+      "text": "hangout with friends and family"
+    }
+  ],
+  "utter_faq/find depression": [
+    {
+      "text": "MRI and EMG scans are commonly used technologies used to confirm that you are depressed.One must undergo either MRI scan or EMG scan to confirm they are depressed"
+    }
+  ]
+}
