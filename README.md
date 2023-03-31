@@ -7,3 +7,8 @@ Run the website with a single command
 python routes.py
 
 ```
+Run the depression chatbot
+```
+python chatbot.py
+```
+
